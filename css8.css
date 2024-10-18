@@ -1,0 +1,72 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+body{
+   background-color: black;
+}
+.sala{
+   background-image: url("./joji.jpg");
+   background-size: cover;
+   border: 2px solid #fff;
+      width: 400px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 800px;
+}
+.mila{
+
+   font-size: 50px;
+   font-family: Quicksand; 
+   color: #fff;
+   margin-top: 100px;
+   margin-left: 200px;
+}
+.t_mil{
+    margin-top: 94px;
+    margin-left: 162px;
+    width: 500px;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: Quicksand;
+}
+.pagi{
+    height: 150px;
+    width: 150px;
+    background-image: url(reg.png);
+    background-size: 100% 100%;
+
+    border-radius: 100px;
+    margin-left: -10px;
+    margin-top: -559px;
+    transition: 0.5s;
+    color: transparent;
+}
+a{
+    color: transparent;
+}
+.sala2{
+   background-image: url("./joji2.jpg");
+   background-size: cover;
+   border: 2px solid #fff;
+      width: 400px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 164px;
+}
+.mila2{
+
+   font-size: 50px;
+   font-family: Quicksand; 
+   color: #fff;
+   margin-top: 512px;
+   margin-left: 400px;
+}
+.t_mil2{
+    margin-top: 94px;
+    margin-left: 750px;
+    width: 500px;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: Quicksand;
+}

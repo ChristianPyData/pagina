@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image:url("./slow.gif") ;
+	background-size: 1450px 650px;
+	background-repeat: no-repeat;
+	background-color: #000
+    background-blend-mode: overlay;
+    overflow-x:hidden ;
+    overflow-y:hidden ;
+transition: 0.5s;
+}
+p{
+	color:rgb(231, 230, 230, 0.9) ;
+	font-family: 'Gabarito', sans-serif;
+	font-size: 30px;
+	text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+.pipipi{
+	background-color: rgba(0, 0, 0, 0.5);
+	 display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 0px;
+    margin-top: 265px;
+    margin-left :350px;
+}
+
+.icn{
+	height: 150px;
+    width: 150px;
+    background-image: url(yu.jpg);
+    background-size: 100% 100%;
+margin-left: 616px;
+    margin-top: 241px;
+        transition: 0.5s;
+        color: transparent;
+}
+.pagi{
+	height: 150px;
+    width: 150px;
+    background-image: url(reg.png);
+    background-size: 100% 100%;
+
+    border-radius: 100px;
+margin-left: 34px;
+    margin-top: -391px;
+    transition: 0.5s;
+    color: transparent;
+}
+.pagi2{
+	height: 150px;
+    width: 150px;
+    background-image: url(reg2.png);
+    background-size: 100% 100%;
+    border-radius: 100px;
+    margin-left: 1206px;
+    margin-top: -162px;
+    transition: 0.5s;
+    color: transparent;
+}
+
+.pagi:hover{
+height: 180px;
+width: 180px;
+	transform: scale(1.1);
+}
+.pagi2:hover{
+	height: 180px;
+	width: 180px;
+	transform: scale(1.1);
+}
+a{
+	color: transparent;
+}

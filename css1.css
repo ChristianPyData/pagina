@@ -1,0 +1,511 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+	background-color:transparent;
+	margin: 0px;
+	padding: 0px;
+	color: #fff;
+}
+body{
+	background-image: url("./fondo11.png");
+	background-repeat: no-repeat;	
+	background-size: cover;
+	transition: background-image 0.5s;
+}
+
+#contenedor{
+	width: 1200px;
+	height: 1000px;
+	background: transparent;
+	margin: 0.5em auto;
+	padding: 0.5em;
+	border-box:10px;
+}
+#header{
+	
+	height: 3%;
+	background-color: transparent;
+	border-radius: 1em;
+	margin: 1em;
+	font-family: 'Roboto Slab', serif;
+	font-size: 75px;
+	margin-bottom: 0em;
+	
+	width: 1425px;
+	margin-left: -110px;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+	padding-top: 10px;
+}
+#joji{
+	position: center;
+	margin-top: -100px;
+	margin-left: 100px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+#nav{
+	font-size: 1em;
+	height: 4%;
+	background: transparent;
+	border-radius: 1em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	border-bottom: 2px solid rgba(234, 20, 27, 0.5);
+	font-family: 'Montserrat', sans-serif;
+	width: 1340px;
+	margin-left: -70px;
+	 transform: translateX(-100%);
+    transform: translateY(20%);
+}
+#perso{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	margin-left: 15px;
+	border:0px;
+	transition: 0.5s;
+		width: 150px;
+	height: 40px;
+
+}
+#vira{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	border:0px;
+	margin-right: 25px;
+	transition: 0.5s;
+		width: 150px;
+	height: 40px;
+
+}
+#lega{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	border:0px;
+	transition: 0.5s;
+		width: 193px;
+	height: 40px;
+
+}
+#traye{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	border:0px;
+	transition: 0.5s;
+		width: 150px;
+	height: 40px;
+
+}
+#prim{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	border:0px;
+	transition: 0.5s;
+		width: 193px;
+	height: 40px;
+
+}
+#begin{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	border:0px;
+	transition: 0.5s;
+		width: 150px;
+	height: 40px;
+
+}
+#cola{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	border:0px;
+	transition: 0.5s;
+		width: 150px;
+	height: 40px;
+
+}
+#albun{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	border:0px;
+	transition: 0.5s;
+	width: 150px;
+	height: 40px;
+
+}
+#perso:hover{
+	background:black ;
+	color:rgba(234, 20, 27, 0.5) ;
+	border-top: 2px solid rgba(234, 20, 27, 0.5);
+  border-left: 2px solid rgba(234, 20, 27, 0.5);
+  border-right: 2px solid rgba(234, 20, 27, 0.5);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  transform: scale(1.1);
+}
+#vira:hover{
+	background:black ;
+	color:rgba(234, 20, 27, 0.5) ;
+	border-top: 2px solid rgba(234, 20, 27, 0.5);
+  border-left: 2px solid rgba(234, 20, 27, 0.5);
+  border-right: 2px solid rgba(234, 20, 27, 0.5);
+  transform: scale(1.1);
+  font-size: 15px;
+}
+#lega:hover{
+	background:black ;
+	color:rgba(234, 20, 27, 0.5) ;
+	border-top: 2px solid rgba(234, 20, 27, 0.5);
+  border-left: 2px solid rgba(234, 20, 27, 0.5);
+  border-right: 2px solid rgba(234, 20, 27, 0.5);
+  font-size: 20px;
+  transform: scale(1.1);
+		width: 193px;
+	height: 40px;
+font-size: 15px;
+}
+#traye:hover{
+	background:black ;
+	color:rgba(234, 20, 27, 0.5) ;
+	border-top: 2px solid rgba(234, 20, 27, 0.5);
+  border-left: 2px solid rgba(234, 20, 27, 0.5);
+  border-right: 2px solid rgba(234, 20, 27, 0.5);
+  transform: scale(1.1);
+}
+#prim:hover{
+	background:black ;
+	color:rgba(234, 20, 27, 0.5);
+	font-weight: bold;
+	border-top: 2px solid rgba(234, 20, 27, 0.5);
+  border-left: 2px solid rgba(234, 20, 27, 0.5);
+  border-right: 2px solid rgba(234, 20, 27, 0.5);
+  transform: scale(1.1);
+  font-size: 15px;
+}
+#begin:hover{
+	background:black ;
+	color:rgba(234, 20, 27, 0.5);
+	font-weight: bold;
+	border-top: 2px solid rgba(234, 20, 27, 0.5);
+  border-left: 2px solid rgba(234, 20, 27, 0.5);
+  border-right: 2px solid rgba(234, 20, 27, 0.5);
+  transform: scale(1.1);
+}
+#cola:hover{
+	background:black ;
+	color:rgba(234, 20, 27, 0.5);
+	font-weight: bold;
+	border-top: 2px solid rgba(234, 20, 27, 0.5);
+  border-left: 2px solid rgba(234, 20, 27, 0.5);
+  border-right: 2px solid rgba(234, 20, 27, 0.5);
+  transform: scale(1.1);
+}
+#albun:hover{
+	background:black ;
+	color:rgba(234, 20, 27, 0.5);
+	font-weight: bold;
+	border-top: 2px solid rgba(234, 20, 27, 0.5);
+  border-left: 2px solid rgba(234, 20, 27, 0.5);
+  border-right: 2px solid rgba(234, 20, 27, 0.5);
+
+transform: scale(1.1);
+}
+.boton{
+	margin-bottom: 0px;
+	font-size: 30px;
+	position: center;
+	margin-top: 0px;
+	margin-left: 120px;
+	margin-bottom: 0px;
+	font-family: 'Young Serif', serif;
+	background: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+ 	position: absolute;
+ 	top: 0;
+    transform: translateX(-100%);
+    transform: translateY(220%);
+	transition: 0.5s;
+	}
+.boton:hover{
+	border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}
+.menu1 {
+    display: inline-block;
+}
+.opciones {
+    display: none;
+    position: absolute;
+    background: transparent;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    margin-left: 120px;
+    transform: translateX(-500%);
+    transform: translateY(-125%);
+    width: 175px;
+}
+
+.opciones li {
+    padding: 10px;
+    text-align: center;
+}
+
+.boton:focus + .opciones {
+    display: block;
+    background-color:black;
+}
+.segundo-menu {
+   display: none;
+    position: absolute;
+    background: transparent;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    margin-left: 380px;
+    transform: translateX(-100%);
+    transform: translateY(-87%);
+    width: 175px;
+}
+
+.segundo-menu li {
+    padding: 10px;
+    text-align: center;
+}
+
+#mostrarSegundoMenu:focus + .segundo-menu {
+    display: block;
+}
+.boton2{
+	margin-bottom: 0px;
+	font-size: 30px;
+	position: center;
+	top: -200px;
+	margin-left: 700px;
+	margin-bottom: 0px;
+	font-family: 'Young Serif', serif;
+	background: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+	font-size: 30px;
+	position: center;
+	transform: translateX(-100%);
+    transform: translateY(-275%);
+	margin-top: 150px;
+	margin-left: 380px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+font-family: 'Young Serif', serif;
+transition: 0.5s;
+	}
+.boton2:hover{
+	border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+}
+.menu2 {
+    display: inline-block;
+    margin-left: -20px;
+    width: 1400px;
+}
+.opciones2 {
+    display: none;
+    position: transparent;
+    background: black;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    margin-left: 380px;
+    transform: translateX(-100%);
+    transform: translateY(-87%);
+    width: 175px;
+
+}
+
+.opciones2 li {
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+.boton2:focus + .opciones2 {
+    display: block;
+    background-color:black;
+}
+.limen2{
+	transition: 0.5s;
+	color: #fff;
+}
+.limen2:hover{
+	background:rgba(234, 20, 27, 0.5) ;
+	color:blue ;
+}
+.limen1{
+	transition: 0.5s;
+	color: #fff;
+}
+#limen1:hover{
+	background:rgba(234, 20, 27, 0.5) ;
+	color:blue ;
+}
+#contenido{
+	height: 53%;
+	background: transparent;
+	margin: 1em;
+}
+#footer{
+	height: 15%;
+	background: transparent;
+	border-radius: 1em;
+	margin-top: 15em;
+	margin-left: -100px;
+	font-family: 'Satisfy', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1450px;
+}
+.texto {
+    text-align: center;
+    color: rgba(139, 0, 0, 0.7);
+}
+#section{
+	height: 95%;
+	width: 71%;
+	background: transparent;
+	border-radius: 1em;
+	float: left;
+	margin-top: 100px;
+	margin: 0.5em;
+	text-align: center;
+	margin-bottom: 2em;
+}
+#aside{
+	height: 95%;
+	width: 25%;
+	background-color: transparent;
+	background-image: url("./nectar.png");
+	background-position:-90px 0px;
+	background-size:cover;
+	background-size: 160% 95%;
+	border-radius: 1em;
+	float: right;
+	margin: 0.5em;
+	background-repeat: no-repeat;
+}
+.articulo{
+	width: 96%;
+	height: 20%;
+	background: transparent;
+	margin: 1em;
+	border-radius: 1em;
+}
+a{
+	transition: 0.2s;
+}
+.articulo1 a:hover{
+	color:black;
+}
+.articulo1{
+	width: 96%;
+	height: 20%;
+	background: transparent;
+	margin: 1em;
+	border-radius: 1em;
+	font-family: 'Open Sans', sans-serif;
+transition: 0.5s;
+margin-top: 10px;
+text-decoration: none;
+}
+.articulo2{
+	width: 96%;
+	height: 20%;
+	background: transparent;
+	margin: 1em;
+	border-radius: 1em;
+	font-family: 'Open Sans', sans-serif;
+transition: 0.5s;
+margin-top: 10px;
+text-decoration: none;
+}
+.articulo3{
+	width: 96%;
+	height: 20%;
+	background: transparent;
+	margin: 1em;
+	border-radius: 1em;
+	font-family: 'Open Sans', sans-serif;
+transition: 0.5s;
+margin-top: 10px;
+text-decoration: none;
+}
+.articulo4{
+	width: 96%;
+	height: 20%;
+	background: transparent;
+	margin: 1em;
+	border-radius: 1em;
+	font-family: 'Open Sans', sans-serif;
+transition: 0.5s;
+margin-top: 10px;
+margin-bottom: 3em;
+text-decoration: none;
+}
+h1{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Young Serif', serif;
+	margin-bottom: 3em;
+}
+.articulo1:hover{
+	background:rgba(234, 20, 27, 0.5) ;
+	color:black;
+}
+.articulo2:hover{
+	background:rgba(234, 20, 27, 0.5) ;
+	color:black ;
+}
+.articulo3:hover{
+	background:rgba(234, 20, 27, 0.5) ;
+	color:black ;
+}
+.articulo4:hover{
+	background:rgba(234, 20, 27, 0.5) ;
+	color:black ;
+}
+#menu-desplegable {
+    display: none;
+    background: transparent;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    position: absolute;
+    width: 175px;
+    margin-left: 380px;
+    transform: translateX(-100%);
+    transform: translateY(-87%);
+}
+
+#menu-desplegable li {
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#boton-menu:focus + #menu-desplegable {
+    display: block;
+    background-color: black;
+}

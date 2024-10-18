@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("p.gif");
+    background-size: 1450px 650px;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.mi-div {
+    margin-top: 21px;
+    margin-left: 600px;
+    position: relative;
+     text-shadow: 3px 3px 5px #000;
+    width: 200px;
+    height: 280px;
+    background-image: url("./pink.png");
+    background-size: cover;
+    transition: width 0.3s;
+}
+
+.texto-desplegable {
+    text-align: center;
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    top: 0;
+    right: -150px;
+    width: 150px;
+    height: 100px;
+    background-color: transparent;
+    color: hotpink;
+    opacity: 0;
+    transition: right 0.3s, opacity 0.3s;
+    font-family: 'Roboto Slab', serif;
+}
+
+.mi-div:hover {
+    width: 250px;
+}
+
+.mi-div:hover .texto-desplegable {
+    right: 0;
+    opacity: 1;
+
+}
+
+.mi-div:hover .mi-div2 {
+    transform: translateX(-100%);
+       color: hotpink;
+       opacity: 1;
+}
+.mi-div2{
+    opacity: 0;
+    font-size: 20px;
+    margin-top: 24px;
+    padding: 10px;
+    text-align: center;
+ display: flex;
+ background-color: transparent;
+ transition: 0.5s;
+  transition: background-color 0.3s;
+}
+.mi-div2:hover{
+    background-opa: ;
+ background-color: black;
+ border-top: 2px solid hotpink;
+  border-left: 2px solid hotpink;
+  border-bottom: 2px solid hotpink;
+}
+.mi-div:hover + .mi-div2 {
+    background-color: black; /* Color de fondo cuando pasas el cursor sobre div1 */
+}
+.mi-div3 {
+    margin-top: 21px;
+    margin-left: 600px;
+    position: relative;
+    width: 200px;
+    height: 280px;
+     text-shadow: 3px 3px 5px #000;
+    background-image: url("./fil.jpg");
+    background-size: cover;
+    transition: width 0.3s;
+}
+
+.texto-desplegable2 {
+    text-align: center;
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 3px 3px 5px #000;
+    top: 0;
+    left: -20px;
+    width: 150px;
+    height: 100px;
+    background-color: transparent;
+    color: whitesmoke;
+    opacity: 0;
+    transition: right 0.3s, opacity 0.3s;
+    font-family: 'Roboto Slab', serif;
+}
+
+.mi-div3:hover {
+    width: 250px;
+}
+
+.mi-div3:hover .texto-desplegable2 {
+    left: 0;
+    opacity: 1;
+
+}
+
+.mi-div3:hover .mi-div4 {
+    transform: translateX(100%);
+       color: whitesmoke;
+       opacity: 1;
+}
+.mi-div4{
+    opacity: 0;
+    font-size: 20px;
+    margin-top: 24px;
+    padding: 10px;
+    text-align: center;
+ display: flex;
+ background-color: transparent;
+ transition: 0.5s;
+  transition: background-color 0.3s;
+}
+.mi-div4:hover{
+ background-color: black;
+ border-top: 2px whitesmoke;
+  border-left: 2px whitesmoke;
+  border-bottom: 2px whitesmoke;
+}
+.mi-div3:hover + .mi-div4 {
+    background-color: black; /* Color de fondo cuando pasas el cursor sobre div1 */
+}
+.pagi{
+    height: 150px;
+    width: 150px;
+    background-image: url(reg.png);
+    background-size: 100% 100%;
+
+    border-radius: 100px;
+margin-left: 20px;
+    margin-top: -579px;
+    transition: 0.5s;
+    color: transparent;
+}
+a{
+    color: transparent;
+}

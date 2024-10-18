@@ -1,0 +1,57 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+body{
+   background-color: black;
+}
+.sala{
+   background-image: url("./si.jpg");
+   background-size: cover;
+   border: 2px solid #fff;
+width: 465px;
+    height: 109px;
+    margin-top: -550px;
+    argin-left: 712px;
+    margin-left: 486px;
+}
+.mila{
+
+   font-size: 50px;
+   font-family: Quicksand; 
+   color: #fff;
+   margin-top: 210px;
+   margin-left: 430px;
+}
+.t_mil{
+    margin-top: 57px;
+    margin-left: 255px;
+    width: 916px;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: Quicksand;
+}
+.pagi{
+    height: 150px;
+    width: 150px;
+    background-image: url(reg.png);
+    background-size: 100% 100%;
+
+    border-radius: 100px;
+    margin-left: -10px;
+    margin-top: -130px;
+    transition: 0.5s;
+    color: transparent;
+}
+a{
+    color: transparent;
+}
+.sala2{
+   background-image: url("./titi.jpg");
+   background-size: cover;
+   border: 2px solid #fff;
+width: 400px;
+    height: 109px;
+    margin-top: 10px;
+    margin-left: 486px;
+}
